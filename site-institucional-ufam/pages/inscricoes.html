@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../img/logotitle.png">
+  <title>ufam | Inscrições</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm" id="neubar"
+        style="background-color: #159415; margin-bottom: 0; filter: drop-shadow(1px 0px 9px);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="../img/topologo.png" height="60" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="/pages/campus.html">Campus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="/pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="/pages/vestibulares.html">Vestibulares</a>
+                    </li>
+                    <li class="n nav-item">
+                      <a class="nav-link mx-2" href="/pages/inscricoes.html">formulário</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  <main id="main">
+    <form id="formInscricoes" action="/action_page.php" class="was-validated needs-validation"
+      style="justify-content: center;">
+      <div>
+        <h2>Bem Vindo As Inscrições.</h2>
+      </div>
+      <div class="row mt-3" style="text-align: left;">
+        <div class="col p-4">
+          <div class="row">
+            <div class="mb-3">
+              <label for="FormControlEmail" class="form-label">Seu Endereço De E-mail:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com"
+                required>
+              <div class="invalid-feedback">Informe Um E-mail.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3">
+              <label for="FormControlPassword" class="form-label">Sua Senha:</label>
+              <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="digite sua senha"
+                required>
+              <div class="invalid-feedback">Informe Uma Senha.</div>
+              <div class="form-text">
+                <p>Sua senha deve ter de 8 a 20 caracteres, conter letras e números e não deve conter espaços,
+                  caracteres especiais ou emojis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h2>Dados Pessoais:</h2>
+            <div class="col">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome:" required>
+              <div class="invalid-feedback">Informe Seu Nome.</div>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Sobrenome:" required>
+              <div class="invalid-feedback">Informe Seu Sobrenome.</div>
+            </div>
+            <div class="mb-3 mt-3">
+              <label class="form-label" for="">Informe Sua Data De Nascimento:</label>
+              <input class="form-control" type="date" required>
+              <div class="invalid-feedback">Informe Sua Data De Nascimento.</div>
+            </div>
+            <div class="mb-3">
+              <input class="form-control" type="number" maxlength="8" placeholder="Contato Celular:" required>
+              <div class="invalid-feedback">Informe Seu Número.</div>
+            </div>
+          </div>
+          <div class="row">
+            <h4>Seu Endereço Abaixo:</h4>
+            <div class="col p-3">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Rua:" required>
+              <div class="invalid-feedback">Informe Sua Rua.</div>
+            </div>
+            <div class="col p-3">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Casa Número:" required>
+              <div class="invalid-feedback">Informe Número Da Casa Se Possuir.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col p-3">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="CEP:" required>
+              <div class="invalid-feedback">Informe Seu CEP.</div>
+            </div>
+            <div class="col p-3">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Qd e Lt:" required>
+              <div class="invalid-feedback">Informe Sua Qd e Lt.</div>
+            </div>
+            <div class="col p-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Cidades</option>
+                <option value="1">Belo Horizonte</option>
+                <option value="2">Capitólio</option>
+                <option value="4">Congonhas</option>
+                <option value="5">Diamantina</option>
+                <option value="6">Brumadinho</option>
+                <option value="7">Mariana</option>
+                <option value="8">Ouro Preto</option>
+                <option value="9">São João del Rei</option>
+                <option value="10">Tiradentes</option>
+                <option value="11">Aiuruoca</option>
+                <option value="12">Bichinho</option>
+                <option value="13">Carrancas</option>
+                <option value="14">Catas Altas</option>
+                <option value="15">Uberlândia</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <h4>Sua Renda Familiar:</h4>
+            <div class="col">
+              <label for="FormControlAdress" class="form-label">Renda Familiar:</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="R$" required>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <h4>Sua Etnia:</h4>
+            <div>
+              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                aria-label="...">
+              <label for="" style="margin-left: 3%;">Branca</label>
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                aria-label="...">
+              <label for="" style="margin-left: 3%;">Negra</label>
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                aria-label="...">
+              <label for="" style="margin-left: 3%;">Indígena</label>
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                aria-label="...">
+              <label for="" style="margin-left: 3%;">Parda</label>
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                aria-label="...">
+              <label for="" style="margin-left: 3%;">Amarela</label>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <h4>Importar Documentos:</h4>
+            <div class="mb-3">
+              <label for="formFileMultiple" class="form-label">Frente E Verso RG:</label>
+              <input class="form-control" type="file" id="formFileMultiple" multiple required>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Certidão De Nascimento:</label>
+              <input class="form-control" type="file" id="formFile" required>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Comprovante De Endereço:</label>
+              <input class="form-control" type="file" id="formFile" required>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Certificado De Conclusão:</label>
+              <input class="form-control" type="file" id="formFile" required>
+            </div>
+          </div>
+          <div style="text-align: center; margin-bottom: 3%;">
+            <button type="button" class="btn btn-primary btn-lg">Inscrever-me</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </main>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+<footer>
+  <footer class="text-white text-center text-lg-start" style="background-color: #159415;">
+      <div class="container p-1">
+          <div class="row mt-4">
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                  <nav class="row span3 nav">
+                      <h2>Localização</h2>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.986960929847!2d-59.9887974310083!3d-3.098124633362158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ad4182f2b17%3A0x67aeea5ef73045fd!2sAv.%20Rodrigo%20Ot%C3%A1vio%2C%206200%20-%20Coroado%2C%20Manaus%20-%20AM%2C%2069080-005!5e0!3m2!1spt-BR!2sbr!4v1683848961191!5m2!1spt-BR!2sbr"
+                      width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <div class="span3">		
+                          <nav class="row redes-sociais nav">
+                              <h2>Redes Sociais</h2>
+              <p class="item-138"><a href="https://pt-br.facebook.com/ufamoficial/" target="_blank" rel="noopener noreferrer">Facebook</a></p><p class="item-257"><a href="https://www.instagram.com/ufam__/" target="_blank" rel="noopener noreferrer">Instagram</a></p><p class="item-136"><a href="https://twitter.com/UFAM_" target="_blank" rel="noopener noreferrer">Twitter</a></p><p class="item-137"><a href="https://www.youtube.com/channel/UCMwBCm2NdKdMtLW3H5mAvkQ/featured" target="_blank" rel="noopener noreferrer">YouTube</a></p><p class="item-139"><a href="https://www.flickr.com/photos/ufam/" target="_blank" rel="noopener noreferrer">Flickr</a></p>
+                          </nav>					
+                      </div>
+                  </nav>                    
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4 pb-1">Buscar </h5>
+                  <div class="form-outline form-white mb-4">
+                      <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                      <label class="form-label" for="formControlLg"></label>
+                  </div>
+                  <ul class="fa-ul" style="margin-left: 1.65em;">
+                      <li class="mb-3">
+                          <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Av. Gen. Rodrigo Octávio
+                              6200, Coroado I
+                              Prédio da Reitoria, 1 andar
+                              Setor Norte
+                              Campus Universitário
+                              69080-900 - Manaus - AM</span>
+                      </li>
+                      <li class="mb-3">
+                          <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                              class="ms-2">ascom@ufam.edu.br</span>
+                      </li>
+                      <li class="mb-3">
+                          <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">(092) 3305-1480</span>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">Horário de Atendimento</h5>
+                  <table class="table text-center text-white">
+                      <tbody class="font-weight-normal">
+                          <tr>
+                              <td>Segunda - Sexta:</td>
+                              <td>8:00 as 18:00</td>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright: Marcelo Alexandre
+      </div>
+  </footer>
+  </div>
+</footer>
+
+</html>
